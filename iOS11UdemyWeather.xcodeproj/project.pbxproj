@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C7813D021F2B4C750068235D /* sky.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C7813D011F2B4C750068235D /* sky.jpg */; };
 		C7AB26621F2B1E9700D5ECD8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7AB26611F2B1E9700D5ECD8 /* AppDelegate.swift */; };
 		C7AB26641F2B1E9700D5ECD8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7AB26631F2B1E9700D5ECD8 /* ViewController.swift */; };
 		C7AB26671F2B1E9700D5ECD8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7AB26651F2B1E9700D5ECD8 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C7813D011F2B4C750068235D /* sky.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = sky.jpg; path = ../../../../Downloads/sky.jpg; sourceTree = "<group>"; };
 		C7AB265E1F2B1E9700D5ECD8 /* iOS11UdemyWeather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS11UdemyWeather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7AB26611F2B1E9700D5ECD8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C7AB26631F2B1E9700D5ECD8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 				C7AB26681F2B1E9700D5ECD8 /* Assets.xcassets */,
 				C7AB266A1F2B1E9700D5ECD8 /* LaunchScreen.storyboard */,
 				C7AB266D1F2B1E9700D5ECD8 /* Info.plist */,
+				C7813D011F2B4C750068235D /* sky.jpg */,
 			);
 			path = iOS11UdemyWeather;
 			sourceTree = "<group>";
@@ -230,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C7AB266C1F2B1E9700D5ECD8 /* LaunchScreen.storyboard in Resources */,
+				C7813D021F2B4C750068235D /* sky.jpg in Resources */,
 				C7AB26691F2B1E9700D5ECD8 /* Assets.xcassets in Resources */,
 				C7AB26671F2B1E9700D5ECD8 /* Main.storyboard in Resources */,
 			);
@@ -425,6 +429,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = MD49SC946D;
 				INFOPLIST_FILE = iOS11UdemyWeather/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jpn.br.classico.diogomsouza.iOS11UdemyWeather;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -439,6 +444,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = MD49SC946D;
 				INFOPLIST_FILE = iOS11UdemyWeather/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jpn.br.classico.diogomsouza.iOS11UdemyWeather;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -528,6 +534,7 @@
 				C7AB26881F2B1E9700D5ECD8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C7AB26891F2B1E9700D5ECD8 /* Build configuration list for PBXNativeTarget "iOS11UdemyWeatherTests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +543,7 @@
 				C7AB268B1F2B1E9700D5ECD8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C7AB268C1F2B1E9700D5ECD8 /* Build configuration list for PBXNativeTarget "iOS11UdemyWeatherUITests" */ = {
 			isa = XCConfigurationList;
@@ -544,6 +552,7 @@
 				C7AB268E1F2B1E9700D5ECD8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
